@@ -1,8 +1,8 @@
 # Mudrex .NET Trading SDK
 
-Unofficial .NET SDK for the [Mudrex Futures API](https://mudrex.com/). This SDK provides a type-safe, async-first interface for trading on Mudrex futures markets.
+Unofficial .NET SDK for the [Mudrex Futures API](https://docs.trade.mudrex.com/docs/overview). This SDK provides a type-safe, async-first interface for trading on Mudrex futures markets.
 
-**Maintainer:** [DecentralizedJM](https://github.com/DecentralizedJM)
+**Built and maintained by [DecentralizedJM](https://github.com/DecentralizedJM)**
 
 ## Features
 
@@ -316,9 +316,9 @@ public class Position
 
 The SDK includes built-in rate limiting (2 requests/second by default). If you exceed rate limits, a `MudrexRateLimitException` is thrown.
 
-## Contributing
+## ⚠️ Disclaimer
 
-This is an unofficial SDK maintained by the community. Contributions are welcome!
+**This is an UNOFFICIAL SDK.** This SDK is for educational and informational purposes. Cryptocurrency trading involves significant risk. Always test thoroughly in a safe environment before using with real capital.
 
 ## License
 
@@ -326,10 +326,14 @@ MIT License - see LICENSE file for details
 
 ## API Documentation
 
-For complete API documentation, visit: https://mudrex.com/api/docs
+For complete API documentation, visit: [Mudrex Trading API Docs](https://docs.trade.mudrex.com/docs/overview)
 
 ## Support
 
 For issues, questions, or suggestions:
 - Open an issue on [GitHub](https://github.com/DecentralizedJM/mudrex-dotnet-sdk)
-- Check the [API docs](https://mudrex.com/api/docs)
+- Check the [API docs](https://docs.trade.mudrex.com/docs/overview)
+
+---
+
+Built and maintained by [DecentralizedJM](https://github.com/DecentralizedJM) with ❤️
