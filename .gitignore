@@ -1,0 +1,70 @@
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ReSharper
+.resharper
+*.resharper.user
+*.resharper.iml
+
+# Test Results
+TestResults/
+*.trx
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+publish/
+
+# Rider
+.rider/
+
+# Visual Studio Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+riderModule.iml
+
+# Local History
+.history/
