@@ -20,7 +20,7 @@ public class WalletApi
     /// </summary>
     public async Task<WalletBalance> GetSpotBalanceAsync()
     {
-        var resp = await _client.GetAsync("/wallet/funds");
+        var resp = await _client.PostAsync("/wallet/funds", null);
         var apiResp = JsonSerializer.Deserialize<ApiResponse<WalletBalance>>(resp);
         return apiResp?.Data ?? throw new InvalidOperationException("Invalid response");
     }
@@ -30,7 +30,7 @@ public class WalletApi
     /// </summary>
     public async Task<FuturesBalance> GetFuturesBalanceAsync()
     {
-        var resp = await _client.GetAsync("/wallet/balance");
+        var resp = await _client.GetAsync("/futures/funds");
         var apiResp = JsonSerializer.Deserialize<ApiResponse<FuturesBalance>>(resp);
         return apiResp?.Data ?? throw new InvalidOperationException("Invalid response");
     }
