@@ -54,7 +54,9 @@ public static class Enums
         [EnumMember(Value = "OPEN")]
         Open,
         [EnumMember(Value = "CLOSED")]
-        Closed
+        Closed,
+        [EnumMember(Value = "LIQUIDATED")]
+        Liquidated
     }
 
     [JsonConverter(typeof(JsonStringEnumConverter))]
